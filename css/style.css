@@ -3,7 +3,26 @@
 
 .white{
     color: white;
-    text-transform: ;
+}
+
+.red{
+    background-color: rgb(131, 23, 23);
+}
+
+.acquamarine{
+    background-color: rgb(21, 146, 146);
+}
+.black{
+    background-color: rgb(0, 0, 0);
+}
+.lightblue{
+    background-color: rgb(32, 148, 202);
+}
+.blue{
+    background-color: rgb(0, 16, 238);
+}
+.brown{
+    background-color: rgb(104, 72, 72);
 }
 
 
@@ -13,8 +32,24 @@ header{
     background-color: rgb(8, 71, 82);
 }
 
+.head{
+    background-color: rgb(3, 228, 153);
+}
+
 .h-80px{
     height: 80px;
+}
+
+.h-60vh{
+    height: 60vh;
+}
+
+footer{
+    background-color: darkgrey;
+}
+
+.foot{
+    background-color: rgb(63, 63, 65);
 }
 
 /* :::::::::::::::SPECIFIC RULES::::::::::::::: */
@@ -22,3 +57,10 @@ header{
 .uppercase{
     text-transform: uppercase;
 }
+
+.square-img{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
