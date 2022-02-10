@@ -36,6 +36,10 @@ header{
     background-color: rgb(3, 228, 153);
 }
 
+.vw-100{
+    width: 100vw;
+}
+
 .h-80px{
     height: 80px;
 }
@@ -52,6 +56,11 @@ footer{
     background-color: rgb(63, 63, 65);
 }
 
+.h-sm-widt{
+    min-width: 100%;
+    max-width: 1400px;
+}
+
 /* :::::::::::::::SPECIFIC RULES::::::::::::::: */
 
 .uppercase{
@@ -64,3 +73,15 @@ footer{
     background-color: blue;
 }
 
+.button{
+    width: 20px;
+    height: 26px;
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 576px){
+    .d-xs-none{
+        display: none;
+    }
+    
+}
