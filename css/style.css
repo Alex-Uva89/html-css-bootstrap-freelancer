@@ -56,21 +56,14 @@ footer{
     background-color: rgb(63, 63, 65);
 }
 
-.h-sm-widt{
-    min-width: 100%;
-    max-width: 1400px;
-}
 
 /* :::::::::::::::SPECIFIC RULES::::::::::::::: */
 
-.uppercase{
-    text-transform: uppercase;
-}
+
 
 .square-img{
     width: 200px;
     height: 200px;
-    background-color: blue;
 }
 
 .button{
