@@ -10,7 +10,7 @@
 }
 
 .acquamarine{
-    background-color: rgb(21, 146, 146);
+    background-color: rgba(21, 146, 146, 1);
 }
 .black{
     background-color: rgb(0, 0, 0);
@@ -84,6 +84,20 @@ footer{
     width: 20px;
     height: 26px;
     border: 1px solid white;
+}
+
+.plus{
+    display: none;
+    background-color: rgba(21, 146, 146, .5);
+    cursor: pointer;
+}
+
+.fa-plus{
+    font-size: 7rem;
+}
+
+.container-img:hover .plus{
+    display: block;
 }
 
 @media screen and (max-width: 576px){

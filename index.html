@@ -25,7 +25,8 @@
     </header>
     <main>
         <!-- HEADER MAIN --> 
-        <div class="row row-cols-1 head pb-4 text-uppercase white">
+        <div class="container-fluid head pb-4 text-uppercase white">
+            <div class="row row-cols-1">
                 <!-- IMMAGINE -->
             <div class="col-4 mx-auto my-2">
                 <img src="img/avatar.svg" alt="Avatar">
@@ -46,12 +47,13 @@
             </div>
             <div class="col text-center size-05">grafic artist - web designer - illustrtatore</div>
         </div>
+    </div>
         <section class="py-5">
             <div class="container">
         <!--PORTFOLIO + IMMAGINI -->
                 <div class="row">
             <!-- PORTFOLIO -->
-                <div class="col-12 pt-4 mx-auto">
+                <div class="col-12 py-4 mx-auto">
                 <h2 class="text-center">Portfolio</h2>
                 <div class="col-12 text-center">
                     <div class="row align-items-center">
@@ -69,25 +71,56 @@
             </div>
         </div>
             <!-- CAROSELLO IMMAGINI -->
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 pb-2">
-            <div class="col">
-                    <img src="img/cabin.png" alt="" class="w-100 p-2">         
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 pb-2">
+            <div class="col mb-3">
+                <div class="container-img position-relative white">
+                    <img src="img/cabin.png" alt="" class="w-100">
+                    <div class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
+                        <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
+                    </div>   
+                </div>
             </div>
-            <div class="col">
-                <img src="img/cake.png" alt="" class="w-100 p-2">         
+            <div class="col mb-3">
+                <div class="container-img position-relative white">
+                    <img src="img/cake.png" alt="" class="w-100">
+                    <div class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
+                        <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
+                    </div>   
+                </div>
             </div>
-            <div class="col">
-                <img src="img/circus.png" alt="" class="w-100 p-2">         
+            <div class="col mb-3">
+                <div class="container-img position-relative white">
+                    <img src="img/circus.png" alt="" class="w-100">
+                    <div class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
+                        <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
+                    </div>   
+                </div>
             </div>
-            <div class="col">
-                <img src="img/game.png" alt="" class="w-100 p-2">         
+            <div class="col mb-3">
+                <div class="container-img position-relative white">
+                    <img src="img/game.png" alt="" class="w-100">
+                    <div class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
+                        <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
+                    </div>   
+                </div>
             </div>
-            <div class="col">
-                <img src="img/safe.png" alt="" class="w-100 p-2">         
+            <div class="col mb-3">
+                <div class="container-img position-relative white">
+                    <img src="img/safe.png" alt="" class="w-100">
+                    <div class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
+                        <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
+                    </div>   
+                </div>
             </div>
-            <div class="col">
-                <img src="img/submarine.png" alt="" class="w-100 p-2">         
+            <div class="col mb-3">
+                <div class="container-img position-relative white">
+                    <img src="img/submarine.png" alt="" class="w-100">
+                    <div class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
+                        <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
+                    </div>   
+                </div>
             </div>
+            
         </div>
             </section>  
             </div>
@@ -95,24 +128,36 @@
     </div>
         <!-- ABOUT -->
         
-        <div class="head ps-1 pb-4 mb-4 white">
-            <div class="row">
-            <div class="col text-center text-uppercase justify-content-center">
+        <div class="container-fluid head pb-4 mb-4">
+            <section class="container">
+            <div class="row row-cols-1 white">
+            <div class="col text-center">
                 <h2 class="pt-4">ABOUT</h2>
             </div>
-            <div class="row align-items-center justify-content-center">
-                <div class="col-1">
-                    <hr  class="border-noir rounded-2">
-                </div>
-                <div class="col-1 text-center">
-                    <i class="fa-solid fa-star"></i>
-                </div>
-                <div class="col-1">
-                    <hr class="border-noir rounded-2">
+
+            <div class="col text-center ">
+                <div class="row align-items-center">
+                    <div class="col-2 ms-auto">
+                        <hr  class="border-blank rounded-2 col">
+                    </div>
+                    <div class="col-1">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="col-2 me-auto">
+                        <hr class="border-blank rounded-2">
+                    </div>
                 </div>
             </div>
-            <div class="col-9 gap offset-2 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex tenetur fugiat facere delectus omnis. Excepturi libero sint quia similique, blanditiis quos aspernatur laudantium ratione animi. Provident sint sit a in.</div>
-            <div class="col-9 gap offset-2 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nam at sed voluptates repudiandae molestias voluptatum rerum eius, ipsam officiis sit, quo eveniet numquam repellendus, accusantium unde consectetur id tempore.</div>
+            
+            <div class="col col-md-6">
+                <p class="px-5  py-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a molestias ut, alias sequi maxime ratione adipisci aspernatur officia voluptate nam asperiores aliquam neque distinctio quo incidunt iure provident repellat.</p>
+            </div>
+            <div class="col col-md-6">
+                <p class="px-5 py-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a molestias ut, alias sequi maxime ratione adipisci aspernatur officia voluptate nam asperiores aliquam neque distinctio quo incidunt iure provident repellat.</p>
+            </div>  
+        </section>
+ 
+            
         </div>
         </div>
 
