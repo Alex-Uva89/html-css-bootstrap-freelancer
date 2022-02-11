@@ -11,30 +11,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <nav class="row align-middle lh-lg justify-content-beetween">
-            <div class="col-sm-4 white uppercase fw-bolder">
-                <div class="ps-2">start bootsrap</div> 
+    <header class="py-2">
+        <div class="container">
+            <div class="row white text-uppercase">
+                <div class="col-6 fw-bold">
+                    Start bootstrap
+                </div>
+                <div class="col-6 text-end">
+                    <i class="fa-solid fa-bars border border-1 border-light px-2 py-1"></i>
+                </div>
             </div>
-            <div class="row col-1 offset-5 d-sm-none button my-1">
-            </div>
-            <div class=" col-sm-5 offset-sm-3">
-                <ul class="row d-xs-none list-inline list-group list-group-horizontal white pe-3">
-                    <li class="col pe-3">items</li>
-                    <li class="col pe-3">items</li>
-                    <li class="col">items</li>
-                </ul>
-            </div>
-        </nav>
+        </div>
     </header>
     <main>
         <!-- HEADER MAIN --> 
-        <div class="row row-cols-1 head pb-4">
+        <div class="row row-cols-1 head pb-4 text-uppercase white">
                 <!-- IMMAGINE -->
-            <div class="square-img col mx-auto my-4"></div>
-            <div class="col text-center">start bootstrap</div>
-            <div class="col text-center">----x-----</div>
-            <div class="col text-center">grafic artist - web designer - illustrtatore</div>
+            <div class="square-img col mx-auto my-2">
+                <img src="img/avatar.svg" alt="Avatar">
+            </div>
+            <div class="col text-center fw-bold">start bootstrap</div>
+            <div class="col text-center">
+                <div class="row">
+                    <div class=" col-1 offset-3">
+                        <hr  class="border border-2 border-blank rounded-2">
+                    </div>
+                    <div class=" col-1">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class=" col-1">
+                        <hr class="border border-2 border-blank rounded-2">
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center size-05">grafic artist - web designer - illustrtatore</div>
         </div>
         <div class="container">
         <!--PORTFOLIO + IMMAGINI -->
@@ -66,13 +76,18 @@
                 </div>
             </div>
         </div>
+    </div>
         <!-- ABOUT -->
         
-        <div class="row head gx-4 ps-1 pb-4 mb-4 white">
+        <div class="head ps-1 pb-4 mb-4 white">
+            <div class="row">
             <div class="col-4 offset-4 mt-3">Lorem ipsum dolor sit amet. </div>
             <div class="col-9 gap offset-2 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex tenetur fugiat facere delectus omnis. Excepturi libero sint quia similique, blanditiis quos aspernatur laudantium ratione animi. Provident sint sit a in.</div>
             <div class="col-9 gap offset-2 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nam at sed voluptates repudiandae molestias voluptatum rerum eius, ipsam officiis sit, quo eveniet numquam repellendus, accusantium unde consectetur id tempore.</div>
         </div>
+        </div>
+
+
         <!-- CONTACT ME -->
         <div class="row pb-4">
             <div class="col-4 offset-5">contact me</div>
@@ -89,7 +104,7 @@
             </div>
             
         </div>
-    </div>
+
     </main>
 
     <footer>
