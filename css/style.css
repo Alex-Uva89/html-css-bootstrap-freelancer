@@ -52,12 +52,13 @@ header{
     width: 100vw;
 }
 
-.h-80px{
-    height: 80px;
+.container-form{
+    max-width: 400px;
+    margin: 0 auto;
 }
 
-.h-60vh{
-    height: 60vh;
+.tab-form{
+    height: 20px;
 }
 
 footer{
@@ -98,6 +99,11 @@ footer{
 
 .container-img:hover .plus{
     display: block;
+}
+
+.button-hover:hover i{
+    background-color: white;
+    color: black;
 }
 
 @media screen and (max-width: 576px){
