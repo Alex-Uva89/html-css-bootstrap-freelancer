@@ -1,5 +1,8 @@
 /* ::::::::::::GENERIC RULES::::::::::: */
 /* :::::::::::COLORS::::::::::::: */
+.head{
+    background-color: rgb(3, 228, 153);
+}
 
 .white{
     color: white;
@@ -40,13 +43,11 @@
 
 /* ::::::::::::::::HEIGTH:::::::::::::::::::: */
     
-header{
+header,
+footer{
     background-color: rgb(8, 71, 82);
 }
 
-.head{
-    background-color: rgb(3, 228, 153);
-}
 
 .vw-100{
     width: 100vw;
@@ -61,12 +62,8 @@ header{
     height: 20px;
 }
 
-footer{
-    background-color: darkgrey;
-}
-
 .foot{
-    background-color: rgb(63, 63, 65);
+    background-color: rgb(5, 48, 56);
 }
 
 .size-05{
@@ -76,6 +73,12 @@ footer{
 
 /* :::::::::::::::SPECIFIC RULES::::::::::::::: */
 
+.fix{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 10;
+}
 
 .square-img{
     width: 100%
@@ -87,6 +90,12 @@ footer{
     border: 1px solid white;
 }
 
+.button-hover:hover i{
+    background-color: white;
+    color: rgb(8, 71, 82);
+    cursor: pointer;
+} 
+
 .plus{
     display: none;
     background-color: rgba(21, 146, 146, .5);
@@ -97,13 +106,44 @@ footer{
     font-size: 7rem;
 }
 
+.container-img{
+    height: 100%;
+}
+
 .container-img:hover .plus{
     display: block;
 }
 
-.button-hover:hover i{
+.link{
+    text-decoration: none;
+    color:white;
+}
+
+.list-inline-item:hover .link{
+    color:aqua
+}
+
+.fa-facebook-f:hover,
+.fa-google-plus-g:hover,
+.fa-twitter:hover,
+.fa-linkedin-in:hover{
     background-color: white;
-    color: black;
+    color: rgb(8, 71, 82);
+    cursor: pointer;
+}
+
+.bootstrap-link{
+    text-decoration: none;
+    color: rgb(3, 228, 153);
+}
+
+.bootstrap-link:hover{
+    color: aquamarine;
+}
+
+.submit:hover{
+    color:white;
+    background-color: rgb(3, 228, 153);
 }
 
 @media screen and (max-width: 576px){

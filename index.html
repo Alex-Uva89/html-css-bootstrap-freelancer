@@ -7,18 +7,56 @@
     <title>Bootstrap Uva</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="py-2">
+    <a href="#top" class="fix">
+        <i class="fa-solid fa-angle-up btn btn-dark rounded-circle"></i>
+    </a>
+    <header class="py-2 pb-md-0 pt-md-3" id="top">
         <div class="container">
-            <div class="row white text-uppercase">
-                <div class="col-6 fw-bold">
+            <div class="row row-cols-2 white text-uppercase">
+                <div class="col fw-bold" id="start">
                     Start bootstrap
                 </div>
-                <div class="col-6 text-end button-hover">
-                    <i class="fa-solid fa-bars border border-1 border-light px-2 py-1"></i>
+
+                <div class="col text-end" >
+                    <div class="col text-end button-hover d-md-none">
+                        <button type="button" class="btn white border btn-outline-light p-0" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars px-2 py-1"></i>
+                        </button>
+                        <div class="button-hover collapse" id="navbarToggleExternalContent">
+                            <ul class="list-inline text-uppercase">
+                                <li class="list-inline-item pt-2">
+                                    <a href="#portfolio" class="link">portfolio</a> 
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#about" class="link">about</a> 
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#contact" class="link">contact</a> 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col text-end d-none d-md-block" >
+                        <ul class="list-inline text-uppercase">
+                            <li class="list-inline-item pt-5 pt-md-0">
+                                <a href="#portfolio" class="link">portfolio</a> 
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#about" class="link">about</a> 
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#contact" class="link">contact</a> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    <!-- HAMBURGER -->
                 </div>
             </div>
         </div>
@@ -54,7 +92,7 @@
                 <div class="row">
             <!-- PORTFOLIO -->
                 <div class="col-12 py-4 mx-auto">
-                <h2 class="text-center">Portfolio</h2>
+                <h2 class="text-center text-uppercase" id="portfolio">Portfolio</h2>
                 <div class="col-12 text-center">
                     <div class="row align-items-center">
                         <div class="col-2 ms-auto">
@@ -75,49 +113,49 @@
             <div class="col mb-3">
                 <div class="container-img position-relative white">
                     <img src="img/cabin.png" alt="" class="w-100">
-                    <div class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
+                    <a href="!#" class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
                         <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
-                    </div>   
+                    </a href="!#">   
                 </div>
             </div>
             <div class="col mb-3">
                 <div class="container-img position-relative white">
                     <img src="img/cake.png" alt="" class="w-100">
-                    <div class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
+                    <a href="!#" class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
                         <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
-                    </div>   
+                    </a href="!#">   
                 </div>
             </div>
             <div class="col mb-3">
                 <div class="container-img position-relative white">
                     <img src="img/circus.png" alt="" class="w-100">
-                    <div class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
+                    <a href="!#" class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
                         <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
-                    </div>   
+                    </a>   
                 </div>
             </div>
             <div class="col mb-3">
                 <div class="container-img position-relative white">
                     <img src="img/game.png" alt="" class="w-100">
-                    <div class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
+                    <a href="!#" class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
                         <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
-                    </div>   
+                    </a>   
                 </div>
             </div>
             <div class="col mb-3">
                 <div class="container-img position-relative white">
                     <img src="img/safe.png" alt="" class="w-100">
-                    <div class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
+                    <a href="!#" class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
                         <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
-                    </div>   
+                    </a>   
                 </div>
             </div>
             <div class="col mb-3">
                 <div class="container-img position-relative white">
                     <img src="img/submarine.png" alt="" class="w-100">
-                    <div class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
+                    <a href="!#" class="w-100 h-100 p-2 position-absolute top-50 start-50 translate-middle plus">
                         <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle"></i>
-                    </div>   
+                    </a>   
                 </div>
             </div>
             
@@ -132,7 +170,7 @@
             <section class="container">
             <div class="row row-cols-1 white">
             <div class="col text-center">
-                <h2 class="pt-4">ABOUT</h2>
+                <h2 class="pt-4 text-uppercase" id="about">ABOUT</h2>
             </div>
 
             <div class="col text-center ">
@@ -155,6 +193,12 @@
             <div class="col col-md-6">
                 <p class="px-5 py-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis a molestias ut, alias sequi maxime ratione adipisci aspernatur officia voluptate nam asperiores aliquam neque distinctio quo incidunt iure provident repellat.</p>
             </div>  
+            <div class="col text-center">
+                <button type="button" class="btn white border btn-outline-light">
+                    <i class="fa-solid fa-download"></i>
+                    <span>Download</span>
+                </button>
+            </div>
         </section>
  
             
@@ -163,6 +207,26 @@
 
 
         <!-- CONTACT ME -->
+        <section class="container pb-4">
+            <div class="row row-cols-1">
+            <div class="col text-center">
+                <h2 class="pt-4 text-uppercase" id="contact">Contact Me</h2>
+            </div>
+
+            <div class="col text-center ">
+                <div class="row align-items-center">
+                    <div class="col-2 ms-auto">
+                        <hr  class="border-noir rounded-2 col">
+                    </div>
+                    <div class="col-1">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="col-2 me-auto">
+                        <hr class="border-noir rounded-2">
+                    </div>
+                </div>
+            </div>
+        </section>
         <div class="container-form">
         <div class="row pb-4">
             <div class="mb-3">
@@ -186,19 +250,51 @@
                 <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
+              <button class="btn head submit" type="submit">Send</button>
             </div>
         </div>
+        </div>
+    
 
     </main>
 
     <footer>
-        <div class="row row-cols-1 row-cols-md-3">
-            <div class="col text-center mt-3 mb-3 mt-md-5 mb-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ea quaerat dolor cumque, doloribus quis a eum incidunt aperiam blanditiis natus eaque, temporibus voluptate ipsam amet nostrum ducimus. Libero, illo! </div>
-            <div class="col text-center mt-3 mb-3 mt-md-5 mb-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at, quas ipsa expedita natus ad eos quasi alias molestias rerum reiciendis iste laudantium sit. Distinctio ipsum iste reiciendis eveniet explicabo?</div>
-            <div class="col text-center mt-3 mb-3 mt-md-5 mb-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet autem est cum accusantium, inventore a mollitia cupiditate non magnam. Velit unde vitae fuga neque earum aperiam, nulla eos reiciendis architecto.</div>
+        <div class="row row-cols-1 row-cols-md-3 white">
+            <div class="col col-md-4">
+                <h3 class="text-center mt-5 mt-md-6 text-uppercase h6">location</h3>
+                <div class="col text-center mb-3 mb-md-5 small"> 2215 John Daniel Drive Clark, MO 54243</div>
+            </div>
+            <div class="col col-md-4">
+                <h3 class="text-center mt-3 mt-md-5 text-uppercase h6">araound the web</h3>
+                <div class="text-center mb-3 mb-md-5 icons">
+                    <a href="https://it-it.facebook.com/" class="link">
+                        <i class="fa-brands fa-facebook-f border rounded-circle py-1 px-2"></i>
+                    </a>
+                    <a href="https://www.google.com" class="link">
+                        <i class="fa-brands fa-google-plus-g border rounded-circle py-1 px-1"></i>
+                    </a>
+                    <a href="https://twitter.com/" class="link">
+                        <i class="fa-brands fa-twitter border rounded-circle py-1 px-1"></i>
+                    </a>
+                    <a href="https://it.linkedin.com/" class="link">
+                        <i class="fa-brands fa-linkedin-in border rounded-circle py-1 px-2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col col-md-4">
+                <h3 class="col text-center mt-3 mt-md-5 text-uppercase h6">about freelancer</h3>
+                <div class="col-8 col-md-auto m-auto text-center mb-5 mb-md-6 small">Freelance is a free to use, open source Bootstrap theme created by <a href="#start" class="bootstrap-link">Start Bootstrap</a></div>
+            </div>
         </div>
-
-        <div class="row foot h-80px align-items-center justify-content-center white">copyright</div>
+        <div class="row row-cols-3 foot h-80px align-items-center justify-content-center white">
+                <section class="container py-3">
+                <div class="col text-center">
+                    <span>Copyright</span>
+                    <i class="fa-solid fa-copyright"></i>
+                    <span>Your website 2019</span>
+                </div>
+            </section>
+            </div>
     </footer>
     
 </body>
