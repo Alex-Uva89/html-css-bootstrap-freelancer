@@ -146,7 +146,11 @@ footer{
 }
 
 .list-inline-item:hover .link{
-    color:aqua
+    color:aqua;
+}
+
+.button-hover a:hover{
+    color:aqua;
 }
 
 .fa-facebook-f:hover,
