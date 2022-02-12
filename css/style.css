@@ -58,6 +58,18 @@ footer{
     margin: 0 auto;
 }
 
+
+.foot{
+    background-color: rgb(5, 48, 56);
+}
+
+.size-05{
+    font-size: .5rem;
+}
+
+
+/* :::::::::::::::SPECIFIC RULES::::::::::::::: */
+
 .form-floating .tab-form{
     display: block;
     width: 100%;
@@ -72,7 +84,7 @@ footer{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border-radius: 0.25rem;
+    border-radius: 0rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     border-top: 0px;
     border-left: 0px;
@@ -80,26 +92,18 @@ footer{
     box-shadow: none;
 }
 
-
-
-
-
-.foot{
-    background-color: rgb(5, 48, 56);
-}
-
-.size-05{
-    font-size: .5rem;
-}
-
-
-/* :::::::::::::::SPECIFIC RULES::::::::::::::: */
-
 .fix{
+    text-decoration: none;
     position: fixed;
-    bottom: 15px;
-    right: 15px;
+    bottom: 20px;
+    right: 20px;
     z-index: 10;
+}
+
+
+.fa-angle-up{
+    font-size: 2rem;
+    padding:1rem 1.2rem;
 }
 
 .square-img{
@@ -168,9 +172,25 @@ footer{
     background-color: rgb(3, 228, 153);
 }
 
+#exampleFormControlTextarea1{
+    box-shadow: none;
+}
+
 @media screen and (max-width: 576px){
     .d-xs-none{
         display: none;
+    }
+
+    .fix{
+        position: fixed;
+        bottom: 40px;
+        right: 25px;
+        z-index: 10;
+    }
+
+    .fa-angle-up{
+        font-size: 3rem;
+        padding: 1.5rem 1.7rem;
     }
     
 }
